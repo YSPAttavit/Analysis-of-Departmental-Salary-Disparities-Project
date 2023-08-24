@@ -1,6 +1,6 @@
 # Analysis of Departmental Salary Disparities [Tableau, Python, T-SQL, SQL Server Management Studio, Excel, Powerpoint]
 [GitHub Repository](https://github.com/YongSookPrasitAttavit/Analysis-of-Departmental-Salary-Disparities-Project)  
-[Accompanying JupyterNoteBook](Analysis_of_Departmental_Salary_Disparities_AccompanyingJupyterNotebook.ipynb)
+[Accompanying JupyterNoteBook](https://nbviewer.org/github/YongSookPrasitAttavit/Analysis-of-Departmental-Salary-Disparities-Project/blob/main/Analysis_of_Departmental_Salary_Disparities_AccompanyingJupyterNotebook.ipynb)
 
 ## Background
 This project involves a statistical investigation into departmental salary disparities within a company. SQL & Python was used for statistical calculation, Tableau was used to create supporting visualizations.
