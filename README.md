@@ -1,15 +1,59 @@
-Initial Commit of Departmental Salary Disparities Analysis Project
+# Analysis of Departmental Salary Disparities [Tableau, Python, T-SQL, SQL Server Management Studio, Excel, Powerpoint]
+[GitHub Repository](https://github.com/YongSookPrasitAttavit/Analysis-of-Departmental-Salary-Disparities-Project)  
+[Accompanying JupyterNoteBook](Analysis_of_Departmental_Salary_Disparities_AccompanyingJupyterNotebook.ipynb)
 
-/data/exported contains Histogram plots related to Annual Salaried Workers, these are .png generated from the accompanying JupyterNotebook
+## Background
+This project involves a statistical investigation into departmental salary disparities within a company. SQL & Python was used for statistical calculation, Tableau was used to create supporting visualizations.
 
-Clerk_Cashier_Annual_Hourly.csv, EmployeeSalaries_stddev_Avg_CV_Outlier.csv are files that are generated from the accompanying Jupyter Notebook
+Business Case:  
+  • The data analytics manager of a company would like to seek insights into salary disparities present within the company department
 
-/TableauPlot contains .csv files that are outputted from the SQL query from SQL Server Management Studio (SSMS)
+Objective:  
+  • Obtain relevant insights with Exploratory Data Analysis (EDA), and create a SQL query that identifies a high amount of variation within the department
+  • Provide the top 5 department that should be selected for management to review, with regards to having the most variance & discrepancy in salary
 
-Departmental Salary Disparities Analysis Project_AccompanyingJupyterNotebook.ipynb is the accompanying JupyterNotebook
+Deliverables:  
+  • Provide a list from a SQL database with a way to score variation by Department  
+  • JupyterNotebook with accompanying Python code block for SQL calculation cross-validation & EDA
 
-comparison.csv is used to validate mean, standard deviation and Coefficient of Variation Values calculated from the SQL code
+Data from raw .csv file was ingested into SQL Server Management Studio [SSMS], from which SQL queries were iteratively built upon to obtain the final output which included departmental statistical information such as:
+  - Standard Deviation
+  - Average Salary
+  - Coefficient Of Variation
+  - Outlier Count based off Z-Score values
 
-EmployeeSalaries_Disparity_Dataset.sql contains the SQL codes used in the project
+Through EDA with Python, I came to the conclusion that the dataset contained both hourly & annual salaried workers, through which the scope of the departmental salary analysis was eventually restricted to only include annual salaried workers as reflected in the final SQL code.
 
-/data contains the original dataset used for analysis which is: Employee_Salaries.csv
+![EDA on Lower Income Bracket](data/image/EDA_LowerIncomeBracket.png)
+
+Additionally, through investigation of departmental salary distributions with histograms & relevant Quantile-Quantile plots, I've concluded to place less emphasis on count of outliers via Z-Score values & instead, place more emphasis on the Coefficient of Variation during departmental evaluation.
+
+![EDA on Lower Income Bracket](data/image/EDA_AnnualSalariedEmployees.png)
+
+The top 5 departments were selected for management to review, along with statistical reasonings
+
+![Formula & Significance of calculated columns from SQL Query](data/image/Formula_Significance_of_Calculated_Columns.png)
+
+## Data Source
+The dataset used in this analysis can be downloaded [here](data/Employee_Salaries.csv).
+
+## Accompanying Tableau Visualizations
+
+The link to the accompanying Tableau visualization used can be found below:  
+[Tableau Visualization Link](https://public.tableau.com/app/profile/ysook/viz/DepartmentalSalaryDisparitiesAnalysisProject_GitHub_SupportingTableauViz/Top5DepartmenttoinvestigateDashboard)
+
+## Powerpoint Slide
+
+The accompanying Powerpoint slide can be found in the link below:  
+- [GitHub Powerpoint link](Hotel_Data_Analysis_Project_GitHub.pdf)
+- [Google Drive PowerPoint Link]()  
+
+### Final SQL Code Blocks used for Tableau Visualization
+
+Below is the final SQL Query used to output all 4 statistical metrics used in departmental salary disparity analysis
+![Final SQL Query](data/image/Analysis-of-Departmental-Salary-Disparities-Project_FinalSQLQuery.png)
+
+### Based on calculated statistical values, the top 5 departments flagged for management to review were selected:
+
+![Tableau Viz #1](data/image/Tableau_Viz_1.png)
+![Tableau Viz #2](data/image/Tableau_Viz_2.png)
