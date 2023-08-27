@@ -1,5 +1,4 @@
-# Analysis of Departmental Salary Disparities [Tableau, Python, T-SQL, SQL Server Management Studio, Excel, Powerpoint]
-
+# Analysis of Departmental Salary Disparities *<font size="5"> [Tableau, Python, T-SQL, SQL Server Management Studio, Excel, Powerpoint] </font>*
 [GitHub Powerpoint link](Analysis_of_Departmental_Salary_Disparities_Project_Github.pdf)  |  [Google Drive PowerPoint Link](https://drive.google.com/file/d/1NHKyfNxlQOz1XQ-QVTc8FkYLNzQEfLgt/view?usp=sharing)  |  [Accompanying JupyterNoteBook](https://nbviewer.org/github/YongSookPrasitAttavit/Analysis-of-Departmental-Salary-Disparities-Project/blob/main/Analysis_of_Departmental_Salary_Disparities_AccompanyingJupyterNotebook.ipynb)  |  [GitHub Repository Link](https://github.com/YSPAttavit/Analysis-of-Departmental-Salary-Disparities-Project)
 
 The dataset used in this analysis can be downloaded [here](data/Employee_Salaries.csv).
@@ -9,7 +8,7 @@ The link to the accompanying Tableau visualization used can be found below:
 [Tableau Visualization Link](https://public.tableau.com/app/profile/ysook/viz/DepartmentalSalaryDisparitiesAnalysisProject_GitHub_SupportingTableauViz/Top5DepartmenttoinvestigateDashboard)
 
 ## Background
-This project involves a statistical investigation into departmental salary disparities within a company. SQL & Python was used for statistical calculation, Tableau was used to create supporting visualizations.
+This project involves a statistical investigation into departmental salary disparities within a company. **SQL** & **Python** was used for statistical calculation, **Tableau** was used to create supporting visualizations.
 
 Business Case:  
  - The data analytics manager of a company would like to seek insights into salary disparities present within the company department
@@ -20,7 +19,7 @@ Objective:
 
 Deliverables:  
  - Provide a list from a SQL database with a way to score variation by Department  
- - JupyterNotebook with accompanying Python code block for SQL calculation cross-validation & EDA
+ - **JupyterNotebook** with accompanying Python code block for SQL calculation cross-validation & EDA
 
 Data from raw .csv file was ingested into SQL Server Management Studio [SSMS], from which SQL queries were iteratively built upon to obtain the final output which included departmental statistical information such as:
   - Standard Deviation
@@ -36,7 +35,7 @@ Additionally, through investigation of departmental salary distributions with hi
 
 ![EDA on Lower Income Bracket](data/image/EDA_AnnualSalariedEmployees.png)
 
-An explanation on the significance of the 4 calculated values was mentioned in the accompanying Powerpoint Slide:
+An explanation on the significance of the 4 calculated values was mentioned in the accompanying **Powerpoint Slide**:
 
 ![Formula & Significance of calculated columns from SQL Query](data/image/Formula_Significance_of_Calculated_Columns.png)
 
