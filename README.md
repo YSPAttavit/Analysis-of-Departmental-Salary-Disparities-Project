@@ -1,4 +1,6 @@
 # Analysis of Departmental Salary Disparities *<font size="5"> [Tableau, Python, T-SQL, SQL Server Management Studio, Excel, Powerpoint] </font>*
+[Portfolio Link](https://yattavit.github.io/)
+
 [GitHub Powerpoint link](Analysis_of_Departmental_Salary_Disparities_Project_Github.pdf)  |  [Google Drive PowerPoint Link](https://drive.google.com/file/d/1dTD-I94YGdObTEA_XTQngkNj5RegZDJp/view?usp=sharing)  |  [Accompanying JupyterNoteBook](https://nbviewer.org/github/YongSookPrasitAttavit/Analysis-of-Departmental-Salary-Disparities-Project/blob/main/Analysis_of_Departmental_Salary_Disparities_AccompanyingJupyterNotebook.ipynb)  |  [GitHub Repository Link](https://github.com/YSPAttavit/Analysis-of-Departmental-Salary-Disparities-Project)
 
 The dataset used in this analysis can be downloaded [here](data/Employee_Salaries.csv).
